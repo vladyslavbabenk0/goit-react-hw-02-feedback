@@ -5,10 +5,10 @@
 }
 
 button {
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border: solid 1px rgb(255, 255, 255);
   border-radius: 20px;
-  color: rgb(255, 255, 255);
   padding: 8px 32px;
   cursor: pointer;
   font-weight: 600;
