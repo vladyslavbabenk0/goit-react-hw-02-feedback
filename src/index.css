@@ -1,5 +1,3 @@
-@import-normalize; /* bring in normalize.css styles */
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,6 +8,19 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, OpenSans, 'Courier New',
     monospace;
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(129, 59, 156);
+  margin: auto;
+  width: 450px;
+  border-radius: 120px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
